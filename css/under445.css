@@ -1,0 +1,97 @@
+
+#map{
+  height: 15em;
+}
+
+.filter-options select{
+  width:auto;
+  margin:5px;
+  font-size: 1em;
+}
+
+#restaurants-list .restaurant-img{
+  object-fit: cover;
+  max-height: 40%;
+}
+
+#restaurants-list li{
+  width:80%;
+  height: 20em;
+}
+
+/*----------------------------------inside --------------------------------*/
+/*----------header -----------*/
+
+nav h1{
+  padding-top: 1.6em;
+}
+nav h1 a{
+  font-size: 1em;
+  letter-spacing: 0.4em;
+  padding-right: 10%;
+}
+
+#breadcrumb{
+  width:100%;
+  padding:4% 7%;
+}
+
+/*----------main -----------*/
+
+/*-----map-----*/
+.inside #maincontent{
+  width:100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.inside #map-container {
+  height: 8%;
+  width: 100%;
+  top: 6.5%;
+  position: absolute;
+}
+.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale{
+  font-size:0.8em;
+}
+.leaflet-top, .leaflet-bottom{
+  z-index: auto;
+}
+
+/*-----restaurant-----*/
+#restaurant-name, #reviews-container h2{
+  font-size: 1.4em;
+  margin: 0 0 5%;
+  letter-spacing: 0;
+}
+#restaurant-cuisine,#restaurant-address{
+  font-size: 1em;
+}
+
+#restaurant-container, #reviews-container{
+ width:100%;
+ position: relative;
+ padding: 27em 7% 8%;
+}
+
+/*-----reviews-----*/
+#reviews-container {
+  padding: 8% 7% 10%;
+}
+
+#reviews-list li{
+  margin: 0 0 8%;
+  padding:1em;
+}
+#restaurants-list li a{
+  margin: 0.5em 0 0;
+}
+
+
+
+/*----------footer -----------*/
+#footer, .inside #footer{
+  width:100%;
+  font-size: xx-small;
+  padding: 10px;
+}

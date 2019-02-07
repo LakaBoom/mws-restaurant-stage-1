@@ -1,0 +1,6 @@
+.inside #map-container {
+  top: 6%;
+}
+.filter-options select{
+  padding: 0;
+}

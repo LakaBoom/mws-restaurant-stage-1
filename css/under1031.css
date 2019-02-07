@@ -1,0 +1,24 @@
+/****  ipad pro  1024px****/
+body{
+  width:100%;
+}
+#restaurants-list li{
+   width:20%;
+}
+#restaurants-list .restaurant-img{
+  object-fit: scale-down;
+  min-height: auto;
+}
+
+nav h1 a{
+  letter-spacing: 0.7em;
+}
+nav h1 a ,#restaurants-list li h1 {
+  font-size: 1em;
+}
+#restaurants-list p{
+  font-size: 0.9em;
+}
+#restaurants-list li a{
+  padding: 0.8em 1em 1em;
+}
