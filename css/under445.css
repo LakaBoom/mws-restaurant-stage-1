@@ -48,7 +48,7 @@ nav h1 a{
 .inside #map-container {
   height: 8%;
   width: 100%;
-  top: 6.5%;
+  top: 11.5em;
   position: absolute;
 }
 .leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale{
@@ -71,7 +71,7 @@ nav h1 a{
 #restaurant-container, #reviews-container{
  width:100%;
  position: relative;
- padding: 27em 7% 8%;
+ padding: 25em 7% 8%;
 }
 
 /*-----reviews-----*/
