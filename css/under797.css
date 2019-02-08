@@ -4,7 +4,7 @@
 }
 #restaurants-list li{
   width:40%;
-  padding: 0 1em 2em;
+  padding: 0 0.5em;
 }
 #restaurants-list li a{
   font-size: 0.7em;
@@ -28,6 +28,13 @@
 }
 #restaurant-container, #reviews-container{
   width:60%;
+}
+#guestName{
+  padding-right: 0;
+}
+#commentDate{
+  font-size:0.7em;
+  padding-top: 1.4em;
 }
 .inside #footer{
   width:calc(60% - 5em)

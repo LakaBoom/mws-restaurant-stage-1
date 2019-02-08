@@ -108,22 +108,24 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 5em;
-  background-color: #3397DB;
+  background-color: #252831;
   align-items: center;
 }
 .filter-options h2 {
   color: white;
-  font-size: 1rem;
+  font-size: 1.2em;
   font-weight: normal;
   line-height: 1;
-  margin: 0 2em;
+	margin-left: 3%;
+	margin-bottom: 1%;
+	padding: 2% 0 0.5%;
 }
 .filter-options select {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
   font-size: 1.1em;
-  height: 3.5em;
+  height: 2em;
   letter-spacing: 0;
   margin: 1em;
   padding: 0 1em;
@@ -147,7 +149,6 @@ nav h1 a {
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
   margin-bottom: 1.5em;
-	margin-right: auto;
   min-height: 3em;
   padding: 0 3em 2.5em;
   text-align: left;
@@ -197,7 +198,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 82.5%;
   position: fixed;
   right: 0;
   top: 8em;
@@ -272,7 +273,40 @@ nav h1 a {
   padding: 0 1em 2em;
   position: relative;
   width: 80%;
+	border-radius: 10% 20% / 10% 13%;
 }
+
+#reviews-list li div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #252831;
+	border-radius: 50% 20% / 10% 40%;
+	height: 2.5em;
+}
+
+#reviews-list li div p{
+	color:white;
+}
+
+#guestName{
+	font-size: 1.3em;
+  padding: 0.2em 2em;
+}
+
+#commentDate{
+	font-size: 1em;
+  padding-top: 0.7em;
+	display:block;
+	padding-right: 1em;
+}
+
+#guestRating{
+	padding-left: 5%;
+	padding-top: 1em;
+	display: inline-block;
+}
+
 #reviews-list li p {
   margin: 0 0 1em;
 }
