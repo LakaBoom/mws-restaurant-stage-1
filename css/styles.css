@@ -40,7 +40,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   min-height: 100%;
 }
 #footer {
-  background-color: #444;
+  background-color: #252831;
   color: #aaa;
   font-size: 0.8em;
   letter-spacing: 1px;
@@ -127,7 +127,7 @@ nav h1 a {
   font-size: 1.1em;
   height: 2em;
   letter-spacing: 0;
-  margin: 1em;
+  margin: 0 1em 1em;
   padding: 0 1em;
   width: 20em;
 }
@@ -163,7 +163,7 @@ nav h1 a {
   min-width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #9e5500;
   font-family: Arial,sans-serif;
   font-size: 1.4em;
   font-weight: 200;
@@ -177,7 +177,7 @@ nav h1 a {
   font-size: 1.1em;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #3d3329;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -215,7 +215,7 @@ nav h1 a {
   width: calc(50% - 5em);
 }
 #restaurant-name {
-  color: #f18200;
+  color: #9e5500;
   font-family: Arial,sans-serif;
   font-size: 1.7em;
   font-weight: 200;
@@ -253,7 +253,7 @@ nav h1 a {
   padding: 3em 3% 8%;
 }
 #reviews-container h2 {
-  color: #f58500;
+  color: #9e5500;
   font-size: 2.4em;
   font-weight: 300;
   letter-spacing: -1px;
@@ -289,19 +289,19 @@ nav h1 a {
 	color:white;
 }
 
-#guestName{
+.guestName{
 	font-size: 1.3em;
   padding: 0.2em 2em;
 }
 
-#commentDate{
+.commentDate{
 	font-size: 1em;
   padding-top: 0.7em;
 	display:block;
 	padding-right: 1em;
 }
 
-#guestRating{
+.guestRating{
 	padding-left: 5%;
 	padding-top: 1em;
 	display: inline-block;
@@ -313,4 +313,11 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 	vertical-align: top;
+}
+label{
+	display: none;
+}
+
+.leaflet-container a{
+	color:#046f9a;
 }
