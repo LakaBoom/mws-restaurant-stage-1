@@ -16,7 +16,11 @@
 
 #restaurants-list li{
   width:80%;
-  height: 20em;
+  height: 19em;
+}
+#restaurants-list li h2{
+  font-size: 1.2em;
+  margin: 1em 0 0.5em;
 }
 
 /*----------------------------------inside --------------------------------*/
@@ -28,12 +32,10 @@ nav h1{
 nav h1 a{
   font-size: 1em;
   letter-spacing: 0.4em;
-  padding-right: 10%;
 }
 
 #breadcrumb{
   width:100%;
-  padding:4% 7%;
 }
 
 /*----------main -----------*/
@@ -46,11 +48,12 @@ nav h1 a{
 }
 
 .inside #map-container {
-  height: 8%;
+  height: 15em;
   width: 100%;
   top: 11.5em;
   position: absolute;
 }
+
 .leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale{
   font-size:0.8em;
 }
@@ -67,11 +70,18 @@ nav h1 a{
 #restaurant-cuisine,#restaurant-address{
   font-size: 1em;
 }
-
+#restaurant-cuisine{
+  margin: auto;
+  margin-bottom: 2em;
+}
 #restaurant-container, #reviews-container{
  width:100%;
  position: relative;
- padding: 25em 7% 8%;
+ padding: 28em 7% 8%;
+ text-align: center;
+}
+#restaurant-container table{
+  margin:auto;
 }
 
 /*-----reviews-----*/
@@ -82,11 +92,14 @@ nav h1 a{
 #reviews-list li{
   margin: 0 0 8%;
   padding:1em;
+  width: auto;
 }
 #restaurants-list li a{
   margin: 0.5em 0 0;
 }
-
+.longComments{
+  text-align: left;
+}
 
 
 /*----------footer -----------*/

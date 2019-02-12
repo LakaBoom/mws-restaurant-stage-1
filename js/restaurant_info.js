@@ -166,6 +166,7 @@ createReviewHTML = (review) => {
   const li = document.createElement('li');
   li.tabIndex =  0;
   const guestInfo = document.createElement('div');
+  guestInfo.setAttribute('role','group');
   const name = document.createElement('p');
   name.innerHTML = review.name;
   name.className = 'guestName';
@@ -195,6 +196,7 @@ createReviewHTML = (review) => {
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
+  comments.className = 'longComments';
   li.appendChild(comments);
 
   return li;

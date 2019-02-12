@@ -1,6 +1,6 @@
-.inside #map-container {
-  top: 11em;
-}
 .filter-options select{
   padding: 0;
+}
+#restaurants-list li h2 {
+    font-size: 1em;
 }

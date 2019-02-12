@@ -23,10 +23,10 @@
 
   <main id="maincontent">
     <section id="map-container">
-      <div id="map"></div>
+      <div role='application' id="map"></div>
     </section>
     <section>
-      <div class="filter-options">
+      <div role='listbox' class="filter-options">
         <h2>Filter Results</h2>
         <select aria-label= 'Choose a neighborhood' id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
@@ -43,13 +43,13 @@
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
   <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap"></script> -->
-  <script>
+  <!-- <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
                .register('/sw.js')
                .then(function() { console.log("Service Worker Registered"); });
     }
-  </script>
+  </script> -->
   <footer id="footer">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>

@@ -22,3 +22,7 @@ nav h1 a ,#restaurants-list li h1 {
 #restaurants-list li a{
   padding: 0.8em 1em 1em;
 }
+#breadcrumb{
+  font-size: 1em;
+  top:8em;
+}
