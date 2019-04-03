@@ -2,7 +2,7 @@
  * @Author: sharonlee
  * @Date:   2019-01-31T14:54:03-08:00
  * @Last modified by:   sharonlee
- * @Last modified time: 2019-04-02T21:49:14-07:00
+ * @Last modified time: 2019-04-02T23:09:55-07:00
  */
 
 
@@ -160,7 +160,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    return (`img/${restaurant.photograph}`);
   }
 
   /**
